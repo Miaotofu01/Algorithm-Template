@@ -1,0 +1,89 @@
+% TOC 美化 + 页眉页脚
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+% 允许数学模式中的中文正常显示
+\usepackage{xeCJK}
+\xeCJKsetup{CJKmath=true}
+
+% ===== TOC 样式 =====
+\renewcommand{\cfttoctitlefont}{\huge\bfseries}
+\renewcommand{\cftbeforetoctitleskip}{10pt}
+\renewcommand{\cftaftertoctitleskip}{20pt}
+
+\renewcommand{\cftsecfont}{\large\bfseries}
+\renewcommand{\cftsecpagefont}{\large\bfseries}
+\renewcommand{\cftsubsecfont}{\normalsize}
+\renewcommand{\cftsubsecpagefont}{\normalsize}
+\renewcommand{\cftsubsubsecfont}{\small}
+\renewcommand{\cftsubsubsecpagefont}{\small}
+
+\renewcommand{\cftsecleader}{\cftdotfill{0.4}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{0.3}}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{0.2}}
+
+\setlength{\cftbeforesecskip}{8pt}
+\setlength{\cftbeforesubsecskip}{4pt}
+\setlength{\cftbeforesubsubsecskip}{2pt}
+
+% ===== 章节标题 =====
+\titleformat{\section}{\Large\bfseries}{}{0em}{}[\vspace{-0.3em}\rule{\textwidth}{0.5pt}]
+\titleformat{\subsection}{\large\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{}{0em}{}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+
+% ===== 页眉 =====
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small \leftmark}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[R]{\small\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% ===== 代码自动折行 + 高亮 =====
+\usepackage{listings}
+\usepackage[skins,breakable]{tcolorbox}
+\definecolor{codebg}{HTML}{F5F8FA}
+\definecolor{ghfg}{HTML}{24292E}
+\definecolor{ghkw}{HTML}{D73A49}
+\definecolor{ghcm}{HTML}{6A737D}
+\definecolor{ghstr}{HTML}{032F62}
+\definecolor{ghnum}{HTML}{005CC5}
+\lstset{
+  language=C++,
+  breaklines=true,
+  breakatwhitespace=false,
+  basicstyle=\footnotesize\ttfamily\color{ghfg},
+  keywordstyle=\color{ghkw},
+  commentstyle=\color{ghcm},
+  stringstyle=\color{ghstr},
+  numberstyle=\color{ghnum},
+  numbers=none,
+  frame=none,
+  tabsize=2,
+  showstringspaces=false,
+  columns=fullflexible,
+  keepspaces=true,
+}
+
+\BeforeBeginEnvironment{lstlisting}{%
+  \begin{tcolorbox}[
+    enhanced, frame hidden,
+    colback=codebg,
+    arc=2pt, outer arc=2pt,
+    left=3pt, right=3pt, top=1pt, bottom=1pt,
+    breakable,
+  ]%
+}
+\AfterEndEnvironment{lstlisting}{%
+  \end{tcolorbox}%
+}

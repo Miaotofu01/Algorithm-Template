@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "9c161f7b54b9492d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb3ca4d358b045ff",
+        "type": "tabs",
+        "dimension": 83.00970873786407,
+        "children": [
+          {
+            "id": "2a127dc6c770d87d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "红豆的算法模板-booklet.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "红豆的算法模板-booklet"
+            },
+            "group": "83886c4dc8c0be01"
+          }
+        ]
+      },
+      {
+        "id": "22823e24ed761f55",
+        "type": "tabs",
+        "dimension": 16.990291262135923,
+        "children": [
+          {
+            "id": "ea62e7a67b0a524f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "红豆的算法模板-booklet.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "红豆的算法模板-booklet 的大纲"
+            },
+            "group": "83886c4dc8c0be01"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d114769a00e9f54c",
+    "type": "split",
+    "children": [
+      {
+        "id": "36ce635e98cf6fde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60bf5e546fd0e90b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "99a3a446a231981d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "462d13eccc077c1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e90fb4e090c809ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ff39edd5f6c1b40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d7928a93e842a43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "红豆算法模板.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "红豆算法模板 的反向链接列表"
+            }
+          },
+          {
+            "id": "f2509fd2bdfeab2a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "红豆算法模板.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "红豆算法模板 的出链列表"
+            }
+          },
+          {
+            "id": "cd1ffacff318f3e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "fbf63ece7109aa83",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "f20d9c0f3d5a372c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "红豆算法模板.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "红豆算法模板 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "2a127dc6c770d87d",
+  "lastOpenFiles": [
+    "红豆的算法模板-2up.pdf",
+    "红豆的算法模板.pdf",
+    "红豆算法模板.md",
+    "红豆的算法模板-booklet.pdf",
+    "MD → PDF 导出流程.md",
+    "算法模板/基础算法.md",
+    "算法模板/竞赛框架.md",
+    "算法模板/基础算法.md.tmp.2665.bfbeeb3b5ace",
+    "算法模板/经典动态规划.md",
+    "算法模板/杂.md",
+    "算法模板/图论.md",
+    "算法模板/数学.md",
+    "算法模板/数据结构.md",
+    "MD → PDF 导出流程.md.tmp.2665.4a560c37b4c1",
+    "MD → PDF 导出流程.md.tmp.2665.55fd84dcb269",
+    "算法模板",
+    "欢迎.md"
+  ]
+}
