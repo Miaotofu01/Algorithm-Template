@@ -12,14 +12,10 @@
             "id": "2a127dc6c770d87d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "红豆算法模板.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "红豆算法模板"
+              "title": "新标签页"
             },
             "group": "83886c4dc8c0be01"
           }
@@ -210,24 +206,26 @@
   },
   "active": "2a127dc6c770d87d",
   "lastOpenFiles": [
-    "无标题文档",
-    "未命名文件夹",
+    "红豆算法模板.md",
     "红豆的算法模板.pdf",
     "红豆的算法模板-booklet.pdf",
     "红豆的算法模板-2up.pdf",
-    "红豆算法模板.md",
-    "MD → PDF 导出流程.md",
+    "算法模板/经典动态规划.md",
     "算法模板/基础算法.md",
     "算法模板/竞赛框架.md",
-    "算法模板/基础算法.md.tmp.2665.bfbeeb3b5ace",
-    "算法模板/经典动态规划.md",
     "算法模板/杂.md",
-    "算法模板/图论.md",
-    "算法模板/数学.md",
     "算法模板/数据结构.md",
+    "算法模板/数学.md",
+    "算法模板/图论.md",
+    "算法模板",
+    "README.md",
+    "LICENSE",
+    "无标题文档",
+    "未命名文件夹",
+    "MD → PDF 导出流程.md",
+    "算法模板/基础算法.md.tmp.2665.bfbeeb3b5ace",
     "MD → PDF 导出流程.md.tmp.2665.4a560c37b4c1",
     "MD → PDF 导出流程.md.tmp.2665.55fd84dcb269",
-    "算法模板",
     "欢迎.md"
   ]
 }
