@@ -12,12 +12,14 @@
             "id": "2a127dc6c770d87d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "红豆的算法模板-booklet.pdf"
+                "file": "红豆算法模板.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "红豆的算法模板-booklet"
+              "icon": "lucide-file",
+              "title": "红豆算法模板"
             },
             "group": "83886c4dc8c0be01"
           }
@@ -34,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "红豆的算法模板-booklet.pdf",
+                "file": "红豆算法模板.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "红豆的算法模板-booklet 的大纲"
+              "title": "红豆算法模板 的大纲"
             },
             "group": "83886c4dc8c0be01"
           }
@@ -208,10 +210,12 @@
   },
   "active": "2a127dc6c770d87d",
   "lastOpenFiles": [
-    "红豆的算法模板-2up.pdf",
+    "无标题文档",
+    "未命名文件夹",
     "红豆的算法模板.pdf",
-    "红豆算法模板.md",
     "红豆的算法模板-booklet.pdf",
+    "红豆的算法模板-2up.pdf",
+    "红豆算法模板.md",
     "MD → PDF 导出流程.md",
     "算法模板/基础算法.md",
     "算法模板/竞赛框架.md",
